@@ -34,10 +34,7 @@ font-weight: 100;
 src: url('fonts/AktivGrotesk_Trial_Lt.ttf'); 
 }
 
-.blackbg{
-    background-image: url(/img/fimltitles/code.png);
-    
-}
+
 
 .kahtype
 {
@@ -108,7 +105,6 @@ src: url('fonts/AktivGrotesk_Trial_Lt.ttf');
     font-family: 'AktivGrotesk_Trial_Bd';
     font-size: 20px;
     line-height: 25px;
-    z-index: 100;
     color: #939598;
 }
 
@@ -116,7 +112,6 @@ src: url('fonts/AktivGrotesk_Trial_Lt.ttf');
     font-family: 'AktivGrotesk_Trial_Bd';
     font-size: 20px;
     line-height: 25px;
-    z-index: 100;
     color: #282425;
 }
 
@@ -135,6 +130,30 @@ src: url('fonts/AktivGrotesk_Trial_Lt.ttf');
     color: #282425;
 }
 
+.smallheadingoffwhite{
+    font-family: 'AktivGrotesk_Trial_rg';
+    font-size: 20px;
+    line-height: 25px;
+    color: #dbdbdb;
+}
+
+.lorsmallheadingoffwhite{
+    font-family: 'AktivGrotesk_Trial_rg';
+    font-size: 20px;
+    line-height: 25px;
+    color: #dbdbdb;
+    text-decoration: none;
+}
+
+.lorsmallheadingoffwhite:hover
+{
+    font-family: 'AktivGrotesk_Trial_rg';
+    font-size: 20px;
+    line-height: 25px;
+    color: #939598;
+    text-decoration: none;
+}
+
 .smallheadingb{
     font-family: 'AktivGrotesk_Trial_bd';
     font-size: 20px;
@@ -149,6 +168,13 @@ src: url('fonts/AktivGrotesk_Trial_Lt.ttf');
     color: #282425;
 }
 
+.smallheadingig{
+    font-family: 'AktivGrotesk_Trial_it';
+    font-size: 20px;
+    line-height: 25px;
+    color: #939598;
+}
+
 .smalltype{
     font-family: 'AktivGrotesk_Trial_Rg';
     font-size: 20px;
@@ -160,6 +186,14 @@ src: url('fonts/AktivGrotesk_Trial_Lt.ttf');
     font-family: 'AktivGrotesk_Trial_it';
     font-size: 20px;
     line-height: 25px;
+    color: #939598;
+}
+
+
+.xsmalltype{
+    font-family: 'AktivGrotesk_Trial_Rg';
+    font-size: 15px;
+    line-height: 20px;
     color: #939598;
 }
 
@@ -192,6 +226,7 @@ src: url('fonts/AktivGrotesk_Trial_Lt.ttf');
     font-size: 20px;
     line-height: 25px;
     color: #939598;
+    text-decoration: none;
 }
 
 .foottype:hover
@@ -199,6 +234,44 @@ src: url('fonts/AktivGrotesk_Trial_Lt.ttf');
   font-family: 'AktivGrotesk_Trial_Rg';
     font-size: 20px;
     line-height: 25px;
+    color: #282425;
+    text-decoration: none;
+}
+
+foottype:active
+{
+    font-family: 'AktivGrotesk_Trial_Rg';
+    font-size: 20px;
+    line-height: 25px;
+    color: #939598;
+    text-decoration: none;
+}
+
+
+
+
+/*IANAM TYPE*/
+
+.ianambg:
+{
+    background-color: color: #282425 !important;
+}
+
+.ianamkahtype
+{
+    font-family: 'AktivGrotesk_Trial_Rg';
+    font-size: 72px;
+    line-height: 100px;
+    z-index: 100;
+    color: #282425;
+}
+
+.ianamkahtype:hover
+{
+    font-family: 'AktivGrotesk_Trial_Rg';
+    font-size: 72px;
+    line-height: 100px;
+    z-index: 100;
     color: #282425;
     text-decoration: none;
 }
@@ -454,6 +527,13 @@ body{
     text-decoration: none;
  
    
+}
+
+
+
+video {
+  width: 100%    !important;
+  height: auto   !important;
 }
 
 

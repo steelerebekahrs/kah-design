@@ -1,0 +1,1169 @@
+/*
+Custom CSS
+*/
+
+@font-face 
+{
+font-family: 'AktivGrotesk_Trial_Rg';
+font-style: normal;
+font-weight: 100;
+src: url('fonts/AktivGrotesk_Trial_Rg.ttf'); 
+}
+
+@font-face 
+{
+font-family: 'AktivGrotesk_Trial_It';
+font-style: normal;
+font-weight: 100;
+src: url('fonts/AktivGrotesk_Trial_It.ttf'); 
+}
+
+@font-face 
+{
+font-family: 'AktivGrotesk_Trial_Bd';
+font-style: normal;
+font-weight: 100;
+src: url('fonts/AktivGrotesk_Trial_Bd.ttf'); 
+}
+
+@font-face 
+{
+font-family: 'AktivGrotesk_Trial_Lt';
+font-style: normal;
+font-weight: 100;
+src: url('fonts/AktivGrotesk_Trial_Lt.ttf'); 
+}
+
+
+
+.kahtype
+{
+    font-family: 'AktivGrotesk_Trial_Rg';
+    font-size: 72px;
+    line-height: 100px;
+    z-index: 100;
+    color: #282425;
+}
+
+.kahtype:hover
+{
+    font-family: 'AktivGrotesk_Trial_Rg';
+    font-size: 72px;
+    line-height: 100px;
+    z-index: 100;
+    color: #282425;
+    text-decoration: none;
+}
+
+.tighttype{
+    font-family: 'AktivGrotesk_Trial_Rg';
+    font-size: 44px;
+    line-height: 50px;
+    color: #282425;
+}
+
+.type{
+    font-family: 'AktivGrotesk_Trial_Rg';
+    font-size: 44px;
+    line-height: 55px;
+    color: #939598;
+}
+
+.type:hover{
+    font-family: 'AktivGrotesk_Trial_Rg';
+    font-size: 44px;
+    line-height: 55px;
+    color: #939598;
+    text-decoration: none;
+}
+
+.sticky{
+    position: fixed;
+    z-index: 100;
+}
+
+.navtype{
+    font-family: 'AktivGrotesk_Trial_Bd';
+    font-size: 20px;
+    line-height: 25px;
+    z-index: 100;
+    color: #282425;
+    
+}
+
+.navtype:hover{
+    font-family: 'AktivGrotesk_Trial_Bd';
+    font-size: 20px;
+    line-height: 25px;
+    z-index: 100;
+    color: #282425;
+    text-decoration: none;
+}
+
+
+.smalltypebd{
+    font-family: 'AktivGrotesk_Trial_Bd';
+    font-size: 20px;
+    line-height: 25px;
+    z-index: 100;
+    color: #939598;
+}
+
+.smalltypebdbl{
+    font-family: 'AktivGrotesk_Trial_Bd';
+    font-size: 20px;
+    line-height: 25px;
+    z-index: 100;
+    color: #282425;
+}
+
+
+.smallheading{
+    font-family: 'AktivGrotesk_Trial_rg';
+    font-size: 20px;
+    line-height: 25px;
+    color: #939598;
+}
+
+.smallheadingoffblack{
+    font-family: 'AktivGrotesk_Trial_rg';
+    font-size: 20px;
+    line-height: 25px;
+    color: #444444;
+}
+
+.smallheadingblack{
+    font-family: 'AktivGrotesk_Trial_rg';
+    font-size: 20px;
+    line-height: 25px;
+    color: #282425;
+}
+
+.smallheadingb{
+    font-family: 'AktivGrotesk_Trial_bd';
+    font-size: 20px;
+    line-height: 25px;
+    color: #282425;
+}
+
+.smallheadingi{
+    font-family: 'AktivGrotesk_Trial_it';
+    font-size: 20px;
+    line-height: 25px;
+    color: #939598;
+}
+
+.smalltype{
+    font-family: 'AktivGrotesk_Trial_Rg';
+    font-size: 20px;
+    line-height: 25px;
+    color: #939598;
+}
+
+.smalltypei{
+    font-family: 'AktivGrotesk_Trial_it';
+    font-size: 20px;
+    line-height: 25px;
+    color: #939598;
+}
+
+.xsmalltype{
+    font-family: 'AktivGrotesk_Trial_Rg';
+    font-size: 15px;
+    line-height: 20px;
+    color: #939598;
+}
+
+.dltype{
+    font-family: 'AktivGrotesk_Trial_Rg';
+    font-size: 20px;
+    line-height: 25px;
+    color: #939598;
+}
+
+.dltype:hover{
+    font-family: 'AktivGrotesk_Trial_Rg';
+    font-size: 20px;
+    line-height: 25px;
+    color: #282425;
+}
+
+
+.bigtype{
+    font-family: 'AktivGrotesk_Trial_Rg';
+    font-size: 72px;
+    line-height: 100px;
+    z-index: 100;
+    color: #282425;
+}
+
+.foottype
+{
+    font-family: 'AktivGrotesk_Trial_Rg';
+    font-size: 20px;
+    line-height: 25px;
+    color: #939598;
+}
+
+.foottype:hover
+{
+  font-family: 'AktivGrotesk_Trial_Rg';
+    font-size: 20px;
+    line-height: 25px;
+    color: #282425;
+    text-decoration: none;
+}
+
+
+
+
+/*IANAM TYPE*/
+
+.ianambg:
+{
+    background-color: color: #282425 !important;
+}
+
+.ianamkahtype
+{
+    font-family: 'AktivGrotesk_Trial_Rg';
+    font-size: 72px;
+    line-height: 100px;
+    z-index: 100;
+    color: #fcfcfc;
+    z-index: 100000;
+}
+
+.ianamkahtype:hover
+{
+    font-family: 'AktivGrotesk_Trial_Rg';
+    font-size: 72px;
+    line-height: 100px;
+    z-index: 100;
+    color: #fcfcfc;
+    text-decoration: none;
+}
+
+
+.ianamnavtype{
+    font-family: 'AktivGrotesk_Trial_Bd';
+    font-size: 20px;
+    line-height: 25px;
+    z-index: 100;
+    color: #fcfcfc;
+    
+}
+
+.ianamnavtype:hover{
+    font-family: 'AktivGrotesk_Trial_Bd';
+    font-size: 20px;
+    line-height: 25px;
+    z-index: 100;
+    color: #fcfcfc;
+    text-decoration: none;
+}
+
+
+.ianamsmalltypebd{
+    font-family: 'AktivGrotesk_Trial_Bd';
+    font-size: 20px;
+    line-height: 25px;
+    color: #939598;
+}
+
+.ianamsmalltypebdbl{
+    font-family: 'AktivGrotesk_Trial_Bd';
+    font-size: 20px;
+    line-height: 25px;
+    color: #fcfcfc;
+}
+
+
+.smalltype{
+    font-family: 'AktivGrotesk_Trial_Rg';
+    font-size: 20px;
+    line-height: 25px;
+    color: #939598;
+}
+
+
+
+
+
+
+.rotate {
+
+/* Safari */
+-webkit-transform: rotate(90deg);
+
+/* Firefox */
+-moz-transform: rotate(90deg);
+
+/* IE */
+-ms-transform: rotate(90deg);
+
+/* Opera */
+-o-transform: rotate(90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}
+
+
+body{
+  background-color: #0c0c0c;
+  /* Stops the body from going under the navbar */
+  padding-top: 30px;
+}
+
+.pushdown240
+{
+    padding-top: 240px;
+}
+
+.pushdown210
+{
+    padding-top: 210px;
+}
+
+.pushdown180
+{
+    padding-top: 180px;
+}
+
+.pushdown150
+{
+    padding-top: 150px;
+}
+
+.pushdown120
+{
+    padding-top: 120px;
+}
+
+.pushdown90
+{
+    padding-top: 90px;
+}
+
+.pushdown85
+{
+    padding-top: 85px;
+}
+
+.pushdown65
+{
+    padding-top: 65px;
+}
+
+.pushdown30
+{
+    padding-top: 30px;
+}
+
+.pushdown15
+{
+    padding-top: 15px;
+}
+
+.pushdown10
+{
+    padding-top: 10px;
+}
+
+.pushleft{
+    margin-left: -17px;
+}
+
+.paddingbottom30{
+    padding-bottom: 30px;
+}
+
+.paddingleft{
+    padding-left: 30px;
+}
+
+
+
+.curious
+{
+    font-family: 'AktivGrotesk_Trial_it';
+    color: #939598;
+ 
+}
+
+.curious:hover
+{
+    font-family: 'AktivGrotesk_Trial_it';
+    color: #ef1b30;
+    text-decoration: none;
+ 
+}
+
+.smoke{
+    font-family: 'AktivGrotesk_Trial_it';
+    color: #939598;
+ 
+}
+
+.smoke:hover
+{
+    font-family: 'AktivGrotesk_Trial_it';
+    color: #ef1b30;
+    text-decoration: none;
+ 
+}
+
+.road{
+    font-family: 'AktivGrotesk_Trial_it';
+    color: #939598;
+ 
+  
+}
+
+.road:hover
+{
+    font-family: 'AktivGrotesk_Trial_it';
+    color: #ef1b30;
+    text-decoration: none;
+ 
+    
+}
+
+.coffee{
+    font-family: 'AktivGrotesk_Trial_it';
+    color: #939598;
+ 
+ 
+}
+
+.coffee:hover
+{
+    font-family: 'AktivGrotesk_Trial_it';
+    color: #ef1b30;
+    text-decoration: none;
+ 
+   
+}
+
+.alone{
+    font-family: 'AktivGrotesk_Trial_it';
+    color: #939598;
+ 
+ 
+}
+
+.alone:hover
+{
+    font-family: 'AktivGrotesk_Trial_it';
+    color: #ef1b30;
+    text-decoration: none;
+ 
+   
+}
+
+.sleep{
+    font-family: 'AktivGrotesk_Trial_it';
+    color: #939598;
+ 
+ 
+}
+
+.sleep:hover
+{
+    font-family: 'AktivGrotesk_Trial_it';
+    color: #ef1b30;
+    text-decoration: none;
+ 
+   
+}
+
+.wealth{
+    font-family: 'AktivGrotesk_Trial_it';
+    color: #939598;
+ 
+ 
+}
+
+.wealth:hover
+{
+    font-family: 'AktivGrotesk_Trial_it';
+    color: #ef1b30;
+    text-decoration: none;
+ 
+   
+}
+
+
+.display{
+    font-family: 'AktivGrotesk_Trial_it';
+    color: #939598;
+ 
+ 
+}
+
+.display:hover
+{
+    font-family: 'AktivGrotesk_Trial_it';
+    color: #ef1b30;
+    text-decoration: none;
+ 
+   
+}
+
+.place{
+    font-family: 'AktivGrotesk_Trial_it';
+    color: #939598;
+ 
+ 
+}
+
+.place:hover
+{
+    font-family: 'AktivGrotesk_Trial_it';
+    color: #ef1b30;
+    text-decoration: none;
+ 
+   
+}
+
+.viewpoints{
+    font-family: 'AktivGrotesk_Trial_it';
+    color: #939598;
+ 
+ 
+}
+
+.viewpoints:hover
+{
+    font-family: 'AktivGrotesk_Trial_it';
+    color: #ef1b30;
+    text-decoration: none;
+ 
+   
+}
+
+
+
+video {
+  width: 100%    !important;
+  height: auto   !important;
+}
+
+
+
+
+
+
+
+
+#img-got{
+  padding: 10px;
+  height: 400px;
+  width: auto;
+}
+#img-foo{
+  padding: 10px;
+  height: 400px;
+  z-index: -100;
+}
+/* 
+# Responsive breakpoints
+# https://getbootstrap.com/docs/4.0/layout/overview/#responsive-breakpoints
+Extra small   <576px  	.col-
+Small         ≥576px    .col-sm-
+Medium        ≥768px    .col-md-
+Large         ≥992px    .col-lg-
+Extra large   ≥1200px   .col-xl-
+*/
+
+/* Apply these rules if the screen width is LESS than 576px */
+
+@media(max-width:576px){
+  h2{
+    font-size: 1rem
+  }
+  #img-foo{
+    display: none;
+  }
+  .all-cols{
+    border-color:black;
+  }
+}
+
+/* Apply these rules if the screen width is GREATER than 576px */
+
+@media (min-width: 576px) {
+  .all-cols{
+    border-color:white;
+  }
+}
+
+/* Apply these rules if the screen width is GREATER than 768px */
+
+@media (min-width: 768px) {
+  .all-cols{
+    border-color:blue;
+  }
+}
+
+
+
+
+
+
+.curious img {
+  display: block;
+  width: 45%;
+  height: auto;
+  position: fixed;
+  z-index: 1;
+  opacity: 0;
+  pointer-events: none;
+}
+
+
+.curious:hover img {
+  display: block;
+  width: 50%;
+  height: auto;
+  position: absolute;
+  z-index: 999;
+  opacity: 1;
+  pointer-events: none;
+  align-content: center;
+  margin-left: 375px;
+  margin-top: -20%;
+}
+
+.smoke img {
+  display: block;
+  width: 45%;
+  height: auto;
+  position: fixed;
+  z-index: 1;
+  opacity: 0;
+  pointer-events: none;
+}
+
+
+.smoke:hover img {
+  display: block;
+  width: 50%;
+  height: auto;
+  position: absolute;
+  z-index: 999;
+  opacity: 1;
+  pointer-events: none;
+  align-content: center;
+  margin-left: 350px;
+  margin-top: -45%;
+}
+
+.road img {
+  display: block;
+  width: 45%;
+  height: auto;
+  position: fixed;
+  z-index: 1;
+  opacity: 0;
+  pointer-events: none;
+}
+
+
+.road:hover img {
+  display: block;
+  width: 50%;
+  height: auto;
+  position: absolute;
+  z-index: 999;
+  opacity: 1;
+  pointer-events: none;
+  align-content: center;
+  margin-left: 500px;
+  margin-top: -45%;
+}
+
+.coffee img {
+  display: block;
+  width: 45%;
+  height: auto;
+  position: fixed;
+  z-index: 1;
+  opacity: 0;
+  pointer-events: none;
+}
+
+
+.coffee:hover img {
+  display: block;
+  width: 50%;
+  height: auto;
+  position: absolute;
+  z-index: 999;
+  opacity: 1;
+  pointer-events: none;
+  align-content: center;
+  margin-left: 20px;
+  margin-top: -60%;
+
+}
+
+.alone img {
+  display: block;
+  width: 45%;
+  height: auto;
+  position: fixed;
+  z-index: 1;
+  opacity: 0;
+  pointer-events: none;
+}
+
+
+.alone:hover img {
+  display: block;
+  width: 50%;
+  height: auto;
+  position: absolute;
+  z-index: 999;
+  opacity: 1;
+  pointer-events: none;
+  align-content: center;
+  margin-left: 20px;
+  margin-top: -40%;
+
+}
+
+.sleep img {
+  display: block;
+  width: 45%;
+  height: auto;
+  position: fixed;
+  z-index: 1;
+  opacity: 0;
+  pointer-events: none;
+}
+
+
+.sleep:hover img {
+  display: block;
+  width: 50%;
+  height: auto;
+  position: absolute;
+  z-index: 999;
+  opacity: 1;
+  pointer-events: none;
+  align-content: center;
+  margin-left: 20px;
+  margin-top: -35%;
+
+}
+
+
+.wealth img {
+  display: block;
+  width: 45%;
+  height: auto;
+  position: fixed;
+  z-index: 1;
+  opacity: 0;
+  pointer-events: none;
+}
+
+
+.wealth:hover img {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 999;
+  opacity: 1;
+  pointer-events: none;
+  align-content: center;
+  margin-left: 60px;
+  margin-top: -115%;
+
+}
+
+.display img {
+  display: block;
+  width: 45%;
+  height: auto;
+  position: fixed;
+  z-index: 1;
+  opacity: 0;
+  pointer-events: none;
+}
+
+
+.display:hover img {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 999;
+  opacity: 1;
+  pointer-events: none;
+  align-content: center;
+  margin-left: 200px;
+  margin-top: -110%;
+
+}
+
+.place img {
+  display: block;
+  width: 45%;
+  height: auto;
+  position: fixed;
+  z-index: 1;
+  opacity: 0;
+  pointer-events: none;
+}
+
+
+.place:hover img {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 999;
+  opacity: 1;
+  pointer-events: none;
+  align-content: center;
+  margin-left: 50px;
+  margin-top: -110%;
+
+}
+
+.viewpoints img {
+  display: block;
+  width: 45%;
+  height: auto;
+  position: fixed;
+  z-index: 1;
+  opacity: 0;
+  pointer-events: none;
+}
+
+
+.viewpoints:hover img {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 999;
+  opacity: 1;
+  pointer-events: none;
+  align-content: center;
+  margin-left: 200px;
+  margin-top: -110%;
+
+}
+
+
+
+
+
+
+/*BEEEEEEEEEE*/
+
+.content {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.content .content-overlay {
+  background: rgba(255, 255, 255, 0.9);
+  position:absolute;
+  height: 20%;
+  width: 100%;
+  left: 0;
+  top: 100;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay{
+  opacity: 1;
+}
+
+.content-image{
+  width: 100%;
+}
+
+.content-image:hover{
+  width: 100%;
+    
+}
+
+.content-details {
+  position: absolute;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 0%;
+  left: 50%;
+  opacity: 0;
+
+}
+
+.content:hover .content-details{
+  top: 83%;
+  left: 0%;
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+/*this is for deadpage*/
+
+.content1 {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.content1 .content-overlay1 {
+  background: rgba(255, 255, 255, 0.9);
+  position:absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 100;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content1:hover .content-overlay1{
+  opacity: 1;
+}
+
+.content-image1{
+  width: 100%;
+}
+
+.content-image1:hover{
+  width: 100%;
+    
+}
+
+.content-details1 {
+  position: absolute;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 100%;
+  left: 50%;
+  opacity: 0;
+
+}
+
+.content1:hover .content-details1{
+  top: 40%;
+  left: 0%;
+  opacity: 1;
+}
+
+/*over*/
+
+.hide-hover img
+{
+   display: block; 
+}
+
+.hide-hover img:hover
+{
+     display: block;
+}
+
+
+.fadeIn-bottom{
+  top: 80%;
+  bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.fadeIn-all{
+  top: 100%;
+  bottom: 100%;
+    left: 100%;
+    right: 100%;
+}
+
+.pushupmob20
+{
+    
+}
+
+.pushdownmob{
+    padding-bottom: 0px;
+}
+
+.pushleft{
+    margin-left: -17px;
+}
+
+.mobshow{
+        display: none;
+    }
+    
+
+.pushnavdesktop{
+    padding-left: 60px;
+}
+
+.behind{
+    z-index: -1000;
+}
+
+.pushdowndt10{
+    padding-top: 10px;
+}
+
+.deadpushdown10
+{
+    padding-top: 10px;
+}
+
+.pushdown180
+{
+    padding-top: 180px;
+}
+
+.padline
+{
+    padding-bottom: 30px;
+}
+
+
+
+@media only screen and (max-width:576px)
+{
+    
+    .kahtype{
+    font-family: 'AktivGrotesk_Trial_Rg';
+    font-size: 44px;
+    line-height: 55px;
+    color: #282425;
+    }
+    
+    .kahtype:hover{
+    font-family: 'AktivGrotesk_Trial_Rg';
+    font-size: 44px;
+    line-height: 55px;
+    color: #282425;
+    }
+    
+
+    .pushupmob20
+    {
+    margin-top: -20px
+    }
+    
+    .pushupmob8
+    {
+    margin-top: -8px
+    }
+    
+    .pushupmob50
+    {
+    margin-top: -50px
+    }
+    
+
+   .pushdown180
+    {
+        padding-top: 120px;
+    }
+    
+    .type{
+    font-family: 'AktivGrotesk_Trial_Rg';
+    font-size: 32px;
+    line-height: 40px;
+    color: #939598;
+}
+
+    .type:hover{
+        font-family: 'AktivGrotesk_Trial_Rg';
+        font-size: 32px;
+        line-height: 40px;
+        color: #939598;
+        text-decoration: none;
+    }
+    
+    .pushdownmob30
+    {
+        padding-top: 30px;
+    }
+    
+    .pushdownmob90
+    {
+        padding-top: 90px;
+    }
+
+    
+    .pushleft{
+    margin-left: 0px;
+    }
+    
+    .pushdown65
+    {
+    padding-top: 0px;
+    }
+    
+    .pushupmob50{
+        margin-top: -50px;
+    }
+    
+    .pushupmob18{
+        margin-top: -18px;
+    }
+    
+    
+   
+    .mobhide{
+        display: none;
+    }
+    
+    .mobshow{
+        display: block;
+    }
+    
+    
+    .pushnavdesktop{
+    padding-left: 0px;
+    }
+    
+    .pushdowndt10{
+    padding-top: 0px;
+    }
+    
+    .deadpushdown10
+    {
+    padding-top: -10px;
+    }
+    
+    
+    
+    
+}
